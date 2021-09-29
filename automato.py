@@ -8,9 +8,6 @@ tokens = (
     'DIVIDE',
     'LPAREN',
     'RPAREN',
-    'NOME',
-    'IGUAL',
-    'FINALLINHA',
 )
 
 t_PLUS = r'\+'
@@ -19,9 +16,7 @@ t_TIMES = r'\*'
 t_DIVIDE = r'/'
 t_LPAREN = r'\('
 t_RPAREN = r'\)'
-t_NOME = r'\w+'
-t_IGUAL = r'='
-t_FINALLINHA = r';'
+
 
 
 def t_NUMBER(t):
