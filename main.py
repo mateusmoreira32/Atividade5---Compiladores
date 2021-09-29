@@ -4,8 +4,6 @@ date = ''
 3.2
 MOREIRA
 ;
-=
-''
 lexer.input(date)
 
 while True:
